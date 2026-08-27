@@ -1,0 +1,20 @@
+[package]
+name = "picomatch"
+version = "4.0.7"
+edition = "2021"
+description = "Blazing fast and accurate glob matcher, with full support for standard and extended Bash glob features"
+license = "MIT"
+authors = ["Jon Schlinkert"]
+repository = "https://github.com/micromatch/picomatch"
+keywords = ["glob", "match", "picomatch"]
+publish = false
+
+[lib]
+name = "picomatch"
+path = "src/lib.rs"
+
+[[bin]]
+name = "picomatch"
+path = "src/main.rs"
+
+[dependencies]
